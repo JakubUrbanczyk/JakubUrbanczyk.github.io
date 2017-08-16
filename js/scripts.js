@@ -34,7 +34,7 @@ $('.nav-btn').on('click', function(){
 })
 $('.add-item').on('click', function(){
     $(this).before($('<div />', {
-        class: 'img-item',
+        class: 'img-item default',
         text: "",
     })); 
 })
