@@ -31,7 +31,7 @@
 		opacity: 0.8;
 		a{
 			text-decoration: none;
-			color:$primary-color-text;
+			color:$secondary-color-text;
 		}
 	}
 }
@@ -54,7 +54,7 @@
 }
 h1{
 	padding:5px;
-	color:black;
+	color: $secondary-color-text;
 	margin:0px;
 }
 .header-image{

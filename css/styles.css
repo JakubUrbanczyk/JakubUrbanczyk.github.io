@@ -30,7 +30,7 @@
     opacity: 0.8; }
     .navbar li a {
       text-decoration: none;
-      color: #FFFFFF; }
+      color: #000000; }
 
 .done {
   display: -webkit-box;
@@ -54,7 +54,7 @@
 
 h1 {
   padding: 5px;
-  color: black;
+  color: #000000;
   margin: 0px; }
 
 .header-image {
