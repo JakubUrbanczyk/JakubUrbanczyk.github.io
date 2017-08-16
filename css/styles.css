@@ -23,11 +23,10 @@
   margin: 0px;
   padding: 0px; }
   .navbar li {
-    background-color: #BBDEFB;
+    background-color: #FFFFFF;
     list-style-type: none;
     text-align: center;
-    padding: 15px 0px;
-    opacity: 0.8; }
+    padding: 15px 0px; }
     .navbar li a {
       text-decoration: none;
       color: #000000; }
