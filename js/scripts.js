@@ -21,7 +21,7 @@ function fetch(url) {
             //     '<p>'+data.consolidated_weather[0].weather_state_name+'</p>');
             $(imgtext[i]).html('<p>'+data.title+'</p>'+'<p>'+Math.ceil(data.consolidated_weather[0].the_temp)+'  ℃</p>'+'<img class="weather-icon" src="https://www.metaweather.com/static/img/weather/png/64/'+data.consolidated_weather[0].weather_state_abbr+'.png">');   
             },350);
-        },500 * (i+1));
+        },1000 * (i+1));
     });
 }
 function cbfunc(json) {
