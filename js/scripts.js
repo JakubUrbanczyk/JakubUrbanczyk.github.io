@@ -14,7 +14,7 @@ function fetch(url) {
  $.each(locations, function(i) { 
     var yql = "select * from json where url='"+url+locations[i]+"/';";
         setTimeout(function(){
-        yql = "http://query.yahooapis.com/v1/public/yql?q=" + encodeURIComponent(yql) + "&format=json &callback=cbfunc";
+        yql = "https://query.yahooapis.com/v1/public/yql?q=" + encodeURIComponent(yql) + "&format=json &callback=cbfunc";
         getJSON(yql);
             setTimeout(function(){
             // $(imgtext[i]).html('<p>'+data.title+'</p>'+'<p>'+Math.ceil(data.consolidated_weather[0].the_temp)+'  ℃</p>'+
