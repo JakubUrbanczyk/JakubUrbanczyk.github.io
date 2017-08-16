@@ -95,7 +95,8 @@ h1 {
 
 .default {
   background-image: url("../img/default.png");
-  width: 100%; }
+  width: 100%;
+  min-height: 230px; }
 
 .weather-icon {
   opacity: 1; }
